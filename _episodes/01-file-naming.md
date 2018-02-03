@@ -10,7 +10,7 @@ objectives:
 - "Learn to employ unit testing"
 keypoints:
 - "File organization is important."
-output:  
+output:
       html_document
 ---
 
@@ -18,11 +18,11 @@ output:
 
 ### NO
 ```
-myabstract.docx
-Joe’s Filenames Use Spaces and Punctuation.xlsx
-figure 1.png
-fig 2.png
-JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt
+* myabstract.docx
+* Joe’s Filenames Use Spaces and Punctuation.xlsx
+* figure 1.png
+* fig 2.png
+* JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt
 ```
 
 ### YES
@@ -64,7 +64,7 @@ fig02_histogram-talk-attendance.png
 
 <img src="../fig/plasmid_names.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="500px" style="display: block; margin: auto;" />
 
-*** 
+***
 **Example of globbing to narrow file listing**:
 
 <img src="../fig/plasmid_names.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="500px" style="display: block; margin: auto;" />
@@ -113,7 +113,7 @@ This happens to be `R` but also possible in the `shell`, `Python`, etc.
 - Name contains info on content
 - Connects to concept of a *slug* from semantic URLs
 
-*** 
+***
 #### Example
 
 **Which set of file(name)s do you want at 3 a.m. before a deadline**?
@@ -189,7 +189,7 @@ which is just sad :(
 
 ### Recap
 
-*** 
+***
 #### Three principles for (file) names
 
 1. Machine readable
