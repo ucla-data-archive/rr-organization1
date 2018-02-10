@@ -7,6 +7,7 @@ output:
     widescreen: yes
 ---
 
+
 ## Names matter
 
 ![cheers](img/01-naming/cheers.png)

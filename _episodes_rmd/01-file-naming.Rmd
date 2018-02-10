@@ -11,12 +11,21 @@ objectives:
 keypoints:
 - "File organization is important."
 output:  
-      html_document
+#      html_document
+       revealjs::revealjs_presentation
 ---
 ```{r setup, include = FALSE, fig.align = "center"}
 library("knitr")
 opts_chunk$set(echo = TRUE, fig.align = "center")
 ```
+
+## Why file organization is important? 
+
+```{r repro-stark, out.width = "600px", echo = FALSE}
+include_graphics("../fig/stark-repro-research.png")
+```
+
+
 ## Names matter
 
 ### NO
@@ -46,14 +55,14 @@ fig02_histogram-talk-attendance.png
 ***
 ### Awesome file names :)
 
-```{r, out.width = "500px", echo = FALSE}
+```{r, echo = FALSE}
 include_graphics("../fig/awesome_names.png")
 ```
 
 ***
 ### Machine readable
 
-
+***
 #### Machine readable
 
 - Regular expression and globbing friendly
@@ -123,9 +132,10 @@ This happens to be `R` but also possible in the `shell`, `Python`, etc.
 - Accented characters
 - Different files named `foo` and `Foo`
 
-### Human readable
+## Human readable
 
-#### Human readable
+***
+### Human readable
 
 - Name contains info on content
 - Connects to concept of a *slug* from semantic URLs
